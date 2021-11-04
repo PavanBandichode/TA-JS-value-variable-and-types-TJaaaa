@@ -6,11 +6,28 @@
   - `if` the number is even print the message " number is even"
   - `if` the number is odd print the message "number is odd"
 */
-
+// prompt("enter a number: ");
+// let number=prompt("enter a number: ");
+// if(number%2==0){
+//   alert("Entered no is even");
+// }else{
+//   alert("Entered no is odd");
+// }
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
-
+prompt("enter a num1: ");
+let num1=prompt("enter a num1: ");
+prompt("enter a num2: ");
+let num2=prompt("enter a num2: ");
+if(num1>num2){
+  alert(`${num1} is maximum value`);
+}else{
+  alert(`${num2} is maximum value`);
+}
 // 3. Convert the above code using`?` terniary operator
-
+prompt("enter a num1: ");
+let num1=prompt("enter a num1: ");
+prompt("enter a num2: ");
+let num2=prompt("enter a num2: ");
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
 
