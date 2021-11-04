@@ -8,6 +8,6 @@
 
 // Using `console.log` log all the od values from 1 to 10.
 
-// Calculate the sum of all numbers from 1 to 10.
-
+// Calculate the sum of all numbers from 1 to 10.sac
+let num;
 // Log all the values from 1 to 10 using while loop
