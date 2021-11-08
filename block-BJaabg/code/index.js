@@ -14,7 +14,15 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 
-let
+while(bank_balance>amount){
+    amount+=PHONE_PRICE;
+    if(amount<SPENDING_THRESHOLD){
+        amount+=ACCESSORY_PRICE;
+    }
+}
+tax=TAX_RATE*amount;
+let taxedAmount=amount+tax;
+alert(`$${taxedAmount}`);
 // your code goes here
 
 // ⛑ Answer of the above will `$334.76`.
