@@ -178,5 +178,21 @@ if(num1>num2){
     * [ ] Mul
     * [ ] Div
 */
-
+let numA=+prompt("enter numA")
+let numB=+prompt("enter numB")
+let operation=prompt("enter add,sub,mul,div opration");
+switch(operation){
+      case "add":
+        alert(`sum of ${numA} and ${numB}=${numA+numB}`);
+      break;
+      case "sub":
+        alert(`sum of ${numA} and ${numB}=${numA-numB}`);
+      break;
+      case "mul":
+        alert(`sum of ${numA} and ${numB}=${numA*numB}`);
+      break; 
+      case "div":
+        alert(`sum of ${numA} and ${numB}=${numA/numB}`);
+      break;    
+}
 // [Your code goes here]
